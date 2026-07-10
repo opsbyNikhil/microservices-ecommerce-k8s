@@ -22,11 +22,11 @@ spec:
   template:
     metadata:
       name: order-service-pod
-      labels: 
+      labels:
         app: order-service-app
     spec:
       containers:
-        - image: 984912521466.dkr.ecr.ap-south-1.amazonaws.com/nikhil-shop-order-service:build-114
+        - image: 984912521466.dkr.ecr.ap-south-1.amazonaws.com/nikhil-shop-order-service:build-'127'
           name: order-service
           imagePullPolicy: Always
           readinessProbe:
@@ -40,7 +40,6 @@ spec:
             requests:
               cpu: "150m"
               memory: "100Mi"
-            limits: 
+            limits:
               cpu: "200m"
               memory: "150Mi"
-

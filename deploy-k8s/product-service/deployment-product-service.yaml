@@ -22,11 +22,11 @@ spec:
   template:
     metadata:
       name: product-service-pod
-      labels: 
+      labels:
         app: product-service-app
     spec:
       containers:
-        - image: 984912521466.dkr.ecr.ap-south-1.amazonaws.com/nikhil-shop-product-service:build-114
+        - image: 984912521466.dkr.ecr.ap-south-1.amazonaws.com/nikhil-shop-product-service:build-'127'
           name: product-service
           imagePullPolicy: Always
           readinessProbe:
@@ -40,7 +40,6 @@ spec:
             requests:
               cpu: "150m"
               memory: "100Mi"
-            limits: 
+            limits:
               cpu: "200m"
               memory: "150Mi"
-
