@@ -26,7 +26,7 @@ spec:
         app: user-service-app
     spec:
       containers:
-        -                                                                                           image: 984912521466.dkr.ecr.ap-south-1.amazonaws.com/nikhil-shop-user-service:build-106
+        -                                                                                                 image: 984912521466.dkr.ecr.ap-south-1.amazonaws.com/nikhil-shop-user-service:build-107
           name: user-service
           imagePullPolicy: Always
           readinessProbe:
