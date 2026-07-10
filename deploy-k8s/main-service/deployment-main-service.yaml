@@ -26,7 +26,7 @@ spec:
         app: main-service-app
     spec:
       containers:
-        - image: 984912521466.dkr.ecr.ap-south-1.amazonaws.com/nikhil-shop-main-service:build-142
+        - image: 984912521466.dkr.ecr.ap-south-1.amazonaws.com/nikhil-shop-main-service:build-143
           name: main-service
           imagePullPolicy: Always
           readinessProbe:
