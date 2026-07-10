@@ -26,7 +26,7 @@ spec:
         app: order-service-app
     spec:
       containers:
-        -                                                                         image: 984912521466.dkr.ecr.ap-south-1.amazonaws.com/nikhil-shop-order-service:build-103
+        -                                                                               image: 984912521466.dkr.ecr.ap-south-1.amazonaws.com/nikhil-shop-order-service:build-104
           name: order-service
           imagePullPolicy: Always
           readinessProbe:
